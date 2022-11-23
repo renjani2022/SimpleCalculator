@@ -1,3 +1,3 @@
-# simplecalculator
+# simple calculator 
 
 (rebuilding, modifying)
