@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: rgb(22, 26, 32);
+  background-image: url("https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif");
+}
+
+#box {
+  height: 500px;
+  width: 460px;
+  overflow: hidden;
+  position: relative;
+  padding: auto;
+  margin: auto;
+  border-radius: 12px;
+}
+
+#box::before {
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 100%;
+  content: "";
+  height: 10px;
+  position: absolute;
+  background: linear-gradient(180deg, #ff8e71, rgba(255, 142, 113, 0));
+}
+
+box::after {
+  left: 5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 100%;
+  content: "";
+  height: 10px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 142, 113, 0), #ff8e71);
+}
+
+.wrapper {
+  width: 300px;
+  margin: auto;
+  border: transparent;
+  overflow: hidden;
+  position: top;
+  justify-content: center;
+}
+
+.target {
+  font-weight: 300px;
+  font-size: 28px;
+  font-family: "press start 2p", "Courier New", Courier, monospace;
+  color: silver;
+  animation-name: leftToRight;
+  animation-duration: 4.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes leftToRight {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(-160px);
+  }
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kalkulator {
+  padding: 25px;
+  border-radius: 1em;
+  height: 500px;
+  width: 480px;
+  margin: auto;
+  background-color: transparent;
+}
+
+.display-box {
+  padding: 5px;
+  font-family: "lato", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #dcdbe1;
+  border: solid rgb(134, 133, 133) 1.5px;
+  color: #1a1818df;
+  border-radius: 25px;
+  width: 95%;
+  height: 65%;
+}
+
+#tombol {
+  background-color: #040b29;
+}
+
+input[type="button"] {
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #900441de;
+  color: rgb(184, 179, 179);
+  border: solid rgb(88, 71, 71) 2.5px;
+  width: 100%;
+  border-radius: 65px;
+  height: 70%;
+  outline: none;
+}
+
+input:active[type="button"] {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
