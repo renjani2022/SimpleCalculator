@@ -1,3 +1,0 @@
-# simple calculator 
-
-(rebuilding, modifying)
