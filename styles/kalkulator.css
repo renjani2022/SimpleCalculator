@@ -26,7 +26,7 @@ body {
   background: linear-gradient(180deg, #ff8e71, rgba(255, 142, 113, 0));
 }
 
-box::after {
+#box::after {
   left: 5px;
   bottom: 5px;
   z-index: 1;
@@ -96,7 +96,7 @@ section {
   height: 65%;
 }
 
-#tombol {
+#tombl {
   background-color: #040b29;
 }
 

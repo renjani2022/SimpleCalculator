@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./kalkulator.css" />
+    <link rel="stylesheet" href="./styles/kalkulator.css" />
     <title>Kalkulator</title>
   </head>
   <body>
@@ -19,12 +19,7 @@
               <input class="display-box" type="text" id="result" disabled />
             </td>
             <td>
-              <input
-                type="button"
-                value="C"
-                onclick="clearScreen()"
-                id="tombol"
-              />
+              <input type="button" value="C" onclick="activateC()" id="tombl" />
             </td>
           </tr>
           <tr>
@@ -57,6 +52,6 @@
       </table>
     </section>
 
-    <script type="text/javascript" src="./kalkulator.js"></script>
+    <script type="text/javascript" src="./styles/kalkulator.js"></script>
   </body>
 </html>

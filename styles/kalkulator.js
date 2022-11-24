@@ -1,4 +1,4 @@
-function clearScreen() {
+function activateC() {
   document.getElementById("result").value = "";
 }
 
