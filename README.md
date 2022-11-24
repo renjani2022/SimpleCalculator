@@ -1,3 +1,3 @@
 # Simple calculator JS
 
-(rebuilding, modifying)
+(modifying)
